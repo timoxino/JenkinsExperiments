@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sogabe
+Build-Jdk: 1.6.0_43
+Extension-Name: cobertura
+Implementation-Title: cobertura
+Implementation-Version: 1.9.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: cobertura
+Long-Name: Jenkins Cobertura Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Cobertura+Plugin
+Plugin-Version: 1.9.1
+Hudson-Version: 1.424
+Jenkins-Version: 1.424
+Plugin-Dependencies: dashboard-view:2.4;resolution:=optional,maven-plu
+ gin:1.424
+Plugin-Developers: Stephen Connolly:stephenconnolly:stephenconnolly@de
+ v.java.net,Manuel Carrasco Monino:manuel_carrasco:manolo@apache,Seiji
+  Sogabe:ssogabe:s.sogabe@gmail.com
+

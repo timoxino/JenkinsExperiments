@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/GridWriter.java"
+  last-modified="1372061650000"
+  file="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/GridWriter.java"
+>
+  <violation
+    line="3"
+    source="JavadocTypeCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="5"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 86)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 86)."
+  />
+  <violation
+    line="5"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="7"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'convertToString' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'convertToString' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="7"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="13"
+    source="TodoCommentCheck"
+    severity="High"
+    type="checkstyle"
+    message="Comment matches to-do format 'TODO:'."
+    severity-level="0"
+    popup-message="Comment matches to-do format 'TODO:'."
+  />
+  <line number='1'>package com.wakaleo.gameoflife.domain;</line>
+  <line number='2'></line>
+  <line number='3'>public class GridWriter {</line>
+  <line number='4'></line>
+  <line number='5'>    private static final String LINE_SEPARATOR = System.getProperty("line.separator");</line>
+  <line number='6'></line>
+  <line number='7'>    public String convertToString(final Cell[][] gridContents) {</line>
+  <line number='8'>        StringBuffer printedGrid = new StringBuffer();</line>
+  <line number='9'>        for (Cell[] row : gridContents) {</line>
+  <line number='10'>            for (Cell cell : row) {</line>
+  <line number='11'>                printedGrid.append(cell.toString());</line>
+  <line number='12'>            }</line>
+  <line number='13'>            // TODO: This simply masks the problem: why empty rows being passed?</line>
+  <line number='14'>            if (row.length &gt; 0) {</line>
+  <line number='15'>                printedGrid.append(LINE_SEPARATOR);</line>
+  <line number='16'>            }</line>
+  <line number='17'>        }</line>
+  <line number='18'>        return printedGrid.toString();</line>
+  <line number='19'>    }</line>
+  <line number='20'>}</line>
+  <type type='checkstyle' number='6' suppressed='0'/>
+</file>

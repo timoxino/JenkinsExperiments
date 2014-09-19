@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Grid.java"
+  last-modified="1372061650000"
+  file="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Grid.java"
+>
+  <violation
+    line="6"
+    source="JavadocTypeCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="8"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="9"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="11"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="14"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="15"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="17"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="21"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="26"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="30"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="40"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="44"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'toString' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'toString' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="49"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'getLiveNeighboursAt' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'getLiveNeighboursAt' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="49"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="54"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 90)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 90)."
+  />
+  <violation
+    line="61"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="72"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="76"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="80"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="84"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="89"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'getCellAt' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'getCellAt' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="89"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="93"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'getWidth' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'getWidth' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="93"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="97"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'getHeight' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'getHeight' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="97"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="101"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'setCellAt' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'setCellAt' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="101"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="105"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'getContents' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'getContents' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="105"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <line number='1'>package com.wakaleo.gameoflife.domain;</line>
+  <line number='2'></line>
+  <line number='3'>import static com.wakaleo.gameoflife.domain.Cell.DEAD_CELL;</line>
+  <line number='4'>import static com.wakaleo.gameoflife.domain.Cell.LIVE_CELL;</line>
+  <line number='5'></line>
+  <line number='6'>public class Grid {</line>
+  <line number='7'></line>
+  <line number='8'>    private static final int DEFAULT_ROW_COUNT = 3;</line>
+  <line number='9'>    private static final int DEFAULT_COLUMN_COUNT = 3;</line>
+  <line number='10'></line>
+  <line number='11'>    private Cell[][] cells;</line>
+  <line number='12'></line>
+  <line number='13'></line>
+  <line number='14'>    private GridReader gridReader = new GridReader();</line>
+  <line number='15'>    private GridWriter gridWriter = new GridWriter();</line>
+  <line number='16'></line>
+  <line number='17'>    public Grid(final String gridContents) {</line>
+  <line number='18'>        this.cells = makeCellArrayFrom(gridContents);</line>
+  <line number='19'>    }</line>
+  <line number='20'></line>
+  <line number='21'>    public Grid() {</line>
+  <line number='22'>        this.cells = anArrayOfDeadCells(DEFAULT_ROW_COUNT,</line>
+  <line number='23'>                                        DEFAULT_COLUMN_COUNT);</line>
+  <line number='24'>    }</line>
+  <line number='25'></line>
+  <line number='26'>    public Grid(final int rows, final int columns) {</line>
+  <line number='27'>        this.cells = anArrayOfDeadCells(rows, columns);</line>
+  <line number='28'>    }</line>
+  <line number='29'></line>
+  <line number='30'>    private Cell[][] anArrayOfDeadCells(final int rows, final int columns) {</line>
+  <line number='31'>        Cell[][] deadCells = new Cell[rows][columns];</line>
+  <line number='32'>        for (int i = 0; i &lt; rows; i++) {</line>
+  <line number='33'>            for (int j = 0; j &lt; columns; j++) {</line>
+  <line number='34'>                deadCells[i][j] = DEAD_CELL;</line>
+  <line number='35'>            }</line>
+  <line number='36'>        }</line>
+  <line number='37'>        return deadCells;</line>
+  <line number='38'>    }</line>
+  <line number='39'></line>
+  <line number='40'>    private Cell[][] makeCellArrayFrom(final String gridContents) {</line>
+  <line number='41'>        return gridReader.loadFrom(gridContents);</line>
+  <line number='42'>    }</line>
+  <line number='43'></line>
+  <line number='44'>    @Override</line>
+  <line number='45'>    public String toString() {</line>
+  <line number='46'>        return gridWriter.convertToString(cells);</line>
+  <line number='47'>    }</line>
+  <line number='48'></line>
+  <line number='49'>    public int getLiveNeighboursAt(final int x, final int y) {</line>
+  <line number='50'>        int liveNeighbourCount = 0;</line>
+  <line number='51'>        for (int xPosition = x - 1; xPosition &lt;= x + 1; xPosition++) {</line>
+  <line number='52'>            for (int yPosition = y - 1; yPosition &lt;= y + 1; yPosition++) {</line>
+  <line number='53'>                if (!cellIsCentralCell(xPosition, yPosition, x, y)) {</line>
+  <line number='54'>                    liveNeighbourCount += countLiveNeighboursInCell(xPosition, yPosition);</line>
+  <line number='55'>                }</line>
+  <line number='56'>            }</line>
+  <line number='57'>        }</line>
+  <line number='58'>        return liveNeighbourCount;</line>
+  <line number='59'>    }</line>
+  <line number='60'></line>
+  <line number='61'>    private int countLiveNeighboursInCell(final int x, final int y) {</line>
+  <line number='62'>        if (cellIsOutsideBorders(x, y)) {</line>
+  <line number='63'>            return 0;</line>
+  <line number='64'>        }</line>
+  <line number='65'>        if (cells[y][x] == LIVE_CELL) {</line>
+  <line number='66'>            return 1;</line>
+  <line number='67'>        } else {</line>
+  <line number='68'>            return 0;</line>
+  <line number='69'>        }</line>
+  <line number='70'>    }</line>
+  <line number='71'></line>
+  <line number='72'>    private boolean cellIsOutsideBorders(final int x, final int y) {</line>
+  <line number='73'>        return (y &lt; 0 || y &gt; getMaxRow()) || (x &lt; 0 || x &gt; getMaxColumn());</line>
+  <line number='74'>    }</line>
+  <line number='75'></line>
+  <line number='76'>    private int getMaxRow() {</line>
+  <line number='77'>        return cells.length - 1;</line>
+  <line number='78'>    }</line>
+  <line number='79'></line>
+  <line number='80'>    private int getMaxColumn() {</line>
+  <line number='81'>        return cells[0].length - 1;</line>
+  <line number='82'>    }</line>
+  <line number='83'></line>
+  <line number='84'>    private boolean cellIsCentralCell(final int x, final int y,</line>
+  <line number='85'>                                      final int centerX, final int centerY) {</line>
+  <line number='86'>        return (x == centerX) &amp;&amp; (y == centerY);</line>
+  <line number='87'>    }</line>
+  <line number='88'></line>
+  <line number='89'>    public Cell getCellAt(final int x, final int y) {</line>
+  <line number='90'>        return cells[y][x];</line>
+  <line number='91'>    }</line>
+  <line number='92'></line>
+  <line number='93'>    public int getWidth() {</line>
+  <line number='94'>        return cells[0].length;</line>
+  <line number='95'>    }</line>
+  <line number='96'></line>
+  <line number='97'>    public int getHeight() {</line>
+  <line number='98'>        return cells.length;</line>
+  <line number='99'>    }</line>
+  <line number='100'></line>
+  <line number='101'>    public void setCellAt(final int x, final int y, final Cell cell) {</line>
+  <line number='102'>        cells[y][x] = cell;</line>
+  <line number='103'>    }</line>
+  <line number='104'></line>
+  <line number='105'>    public Cell[][] getContents() {</line>
+  <line number='106'>        Cell[][] contentCopy = new Cell[getHeight()][getWidth()];</line>
+  <line number='107'>        for (int row = 0; row &lt; getHeight(); row++) {</line>
+  <line number='108'>            for (int column = 0; column &lt; getWidth(); column++) {</line>
+  <line number='109'>                contentCopy[row][column] = cells[row][column];</line>
+  <line number='110'>            }</line>
+  <line number='111'>        }</line>
+  <line number='112'>        return contentCopy;</line>
+  <line number='113'>    }</line>
+  <line number='114'>}</line>
+  <type type='checkstyle' number='30' suppressed='0'/>
+</file>

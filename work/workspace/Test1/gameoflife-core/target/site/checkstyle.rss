@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+  <channel>
+    <title>gameoflife-core - Checkstyle report</title>
+    <link>https://github.com/wakaleo/game-of-life/gameoflife-core</link>
+    <description>gameoflife-core - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2013</copyright>
+    <item>
+      <title>File: 5,
+             Errors: 76,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>https://github.com/wakaleo/game-of-life/gameoflife-core/checkstyle.html</link>
+      <description>
+        <p>Click <a href="https://github.com/wakaleo/game-of-life/gameoflife-core/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="https://github.com/wakaleo/game-of-life/gameoflife-core/checkstyle.html#com.wakaleo.gameoflife.domain.GridReader.java">com/wakaleo/gameoflife/domain/GridReader.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/wakaleo/game-of-life/gameoflife-core/checkstyle.html#com.wakaleo.gameoflife.domain.GridWriter.java">com/wakaleo/gameoflife/domain/GridWriter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/wakaleo/game-of-life/gameoflife-core/checkstyle.html#com.wakaleo.gameoflife.domain.Grid.java">com/wakaleo/gameoflife/domain/Grid.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  30
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/wakaleo/game-of-life/gameoflife-core/checkstyle.html#com.wakaleo.gameoflife.domain.Cell.java">com/wakaleo/gameoflife/domain/Cell.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/wakaleo/game-of-life/gameoflife-core/checkstyle.html#com.wakaleo.gameoflife.domain.Universe.java">com/wakaleo/gameoflife/domain/Universe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  25
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

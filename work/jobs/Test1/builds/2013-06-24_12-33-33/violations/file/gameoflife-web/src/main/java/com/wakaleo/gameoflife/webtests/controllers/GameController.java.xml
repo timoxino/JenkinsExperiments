@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="gameoflife-web/src/main/java/com/wakaleo/gameoflife/webtests/controllers/GameController.java"
+  last-modified="1372061650000"
+  file="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-web/src/main/java/com/wakaleo/gameoflife/webtests/controllers/GameController.java"
+>
+  <violation
+    line="0"
+    source="JavadocPackageCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing package-info.java file."
+    severity-level="0"
+    popup-message="Missing package-info.java file."
+  />
+  <violation
+    line="14"
+    source="JavadocTypeCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="18"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="20"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'newGame' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'newGame' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="20"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="25"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'250' is a magic number."
+    severity-level="0"
+    popup-message="'250' is a magic number."
+  />
+  <violation
+    line="29"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'firstGeneration' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'firstGeneration' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="29"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="31"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 83)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 83)."
+  />
+  <violation
+    line="34"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 89)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 89)."
+  />
+  <violation
+    line="35"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'200' is a magic number."
+    severity-level="0"
+    popup-message="'200' is a magic number."
+  />
+  <violation
+    line="40"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'nextGeneration' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'nextGeneration' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="40"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="42"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="49"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'250' is a magic number."
+    severity-level="0"
+    popup-message="'250' is a magic number."
+  />
+  <violation
+    line="54"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="55"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'4' is a magic number."
+    severity-level="0"
+    popup-message="'4' is a magic number."
+  />
+  <violation
+    line="63"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 90)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 90)."
+  />
+  <violation
+    line="63"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="73"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="75"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 93)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 93)."
+  />
+  <violation
+    line="87"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="95"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="102"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="99"
+    source="UselessParentheses"
+    severity="Medium Low"
+    type="pmd"
+    message="Useless parentheses."
+    severity-level="3"
+    popup-message="Useless parentheses."
+  />
+  <line number='1'>package com.wakaleo.gameoflife.webtests.controllers;</line>
+  <line number='2'></line>
+  <line number='3'>import java.util.Random;</line>
+  <line number='4'></line>
+  <line number='5'>import javax.servlet.http.HttpServletRequest;</line>
+  <line number='6'></line>
+  <line number='7'>import org.springframework.stereotype.Controller;</line>
+  <line number='8'>import org.springframework.web.bind.annotation.RequestMapping;</line>
+  <line number='9'>import org.springframework.web.bind.annotation.RequestParam;</line>
+  <line number='10'>import org.springframework.web.servlet.ModelAndView;</line>
+  <line number='11'></line>
+  <line number='12'>import com.wakaleo.gameoflife.domain.Universe;</line>
+  <line number='13'></line>
+  <line number='14'>@Controller</line>
+  <line number='15'>@RequestMapping("/game")</line>
+  <line number='16'>public class GameController {</line>
+  <line number='17'></line>
+  <line number='18'>    private Random randomGenerator = new Random();</line>
+  <line number='19'></line>
+  <line number='20'>    @RequestMapping("/new")</line>
+  <line number='21'>    public ModelAndView newGame() {</line>
+  <line number='22'>        ModelAndView mav = new ModelAndView("game/edit");</line>
+  <line number='23'>        Universe universe = new Universe();</line>
+  <line number='24'>        mav.addObject("universe", universe);</line>
+  <line number='25'>        thinkABit(250);</line>
+  <line number='26'>        return mav;</line>
+  <line number='27'>    }</line>
+  <line number='28'></line>
+  <line number='29'>    @RequestMapping("/start")</line>
+  <line number='30'>    public ModelAndView firstGeneration(@RequestParam("rows") final int rows,</line>
+  <line number='31'>                                        @RequestParam("columns") final int columns,</line>
+  <line number='32'>                                        final HttpServletRequest request) {</line>
+  <line number='33'></line>
+  <line number='34'>        Universe universe = universeInstanciatedFromClickedCells(rows, columns, request);</line>
+  <line number='35'>        thinkABit(200);</line>
+  <line number='36'></line>
+  <line number='37'>        return showGridScreen(universe);</line>
+  <line number='38'>    }</line>
+  <line number='39'></line>
+  <line number='40'>    @RequestMapping("/next")</line>
+  <line number='41'>    public ModelAndView nextGeneration(@RequestParam("rows") final int rows,</line>
+  <line number='42'>                                       @RequestParam("columns") final int columns,</line>
+  <line number='43'>                                       final HttpServletRequest request) {</line>
+  <line number='44'></line>
+  <line number='45'>        Universe universe = universeInstanciatedFromClickedCells(rows, columns,</line>
+  <line number='46'>                request);</line>
+  <line number='47'>        universe.createNextGeneration();</line>
+  <line number='48'></line>
+  <line number='49'>        thinkABit(250);</line>
+  <line number='50'></line>
+  <line number='51'>        return showGridScreen(universe);</line>
+  <line number='52'>    }</line>
+  <line number='53'></line>
+  <line number='54'>    private void thinkABit(final int max) {</line>
+  <line number='55'>        int thinkingTime = getRandomGenerator().nextInt(max / 4);</line>
+  <line number='56'>        try {</line>
+  <line number='57'>            Thread.currentThread().sleep(thinkingTime);</line>
+  <line number='58'>        } catch (InterruptedException e) {</line>
+  <line number='59'>            e.printStackTrace();</line>
+  <line number='60'>        }</line>
+  <line number='61'>    }</line>
+  <line number='62'></line>
+  <line number='63'>    private Universe universeInstanciatedByDimensions(final int rows, final int columns) {</line>
+  <line number='64'>        Universe universe = new Universe(rows, columns);</line>
+  <line number='65'>        for (int row = 0; row &lt; rows; row++) {</line>
+  <line number='66'>            for (int column = 0; column &lt; columns; column++) {</line>
+  <line number='67'>                universe.setDeadCellAt(row, column);</line>
+  <line number='68'>            }</line>
+  <line number='69'>        }</line>
+  <line number='70'>        return universe;</line>
+  <line number='71'>    }</line>
+  <line number='72'></line>
+  <line number='73'>    private Universe universeInstanciatedFromClickedCells(final int rows,</line>
+  <line number='74'>                                                          final int columns,</line>
+  <line number='75'>                                                          final HttpServletRequest request) {</line>
+  <line number='76'>        Universe universe = universeInstanciatedByDimensions(rows, columns);</line>
+  <line number='77'>        for (int row = 0; row &lt; rows; row++) {</line>
+  <line number='78'>            for (int column = 0; column &lt; columns; column++) {</line>
+  <line number='79'>                if (cellWasClickedAt(row, column, request)) {</line>
+  <line number='80'>                    universe.setLiveCellAt(row, column);</line>
+  <line number='81'>                }</line>
+  <line number='82'>            }</line>
+  <line number='83'>        }</line>
+  <line number='84'>        return universe;</line>
+  <line number='85'>    }</line>
+  <line number='86'></line>
+  <line number='87'>    private ModelAndView showGridScreen(final Universe universe) {</line>
+  <line number='88'>        ModelAndView mav = new ModelAndView("game/show");</line>
+  <line number='89'>        mav.addObject("universe", universe);</line>
+  <line number='90'>        mav.addObject("rows", universe.getCells().length);</line>
+  <line number='91'>        mav.addObject("columns", universe.getCells()[0].length);</line>
+  <line number='92'>        return mav;</line>
+  <line number='93'>    }</line>
+  <line number='94'></line>
+  <line number='95'>    private boolean cellWasClickedAt(final int row,</line>
+  <line number='96'>                                     final int column,</line>
+  <line number='97'>                                     final HttpServletRequest request) {</line>
+  <line number='98'>        String cellName = "cell_" + row + "_" + column;</line>
+  <line number='99'>        return (request.getParameter(cellName) != null);</line>
+  <line number='100'>    }</line>
+  <line number='101'></line>
+  <line number='102'>    private Random getRandomGenerator() {</line>
+  <line number='103'>        return randomGenerator;</line>
+  <line number='104'>    }</line>
+  <line number='105'>}</line>
+  <type type='checkstyle' number='24' suppressed='0'/>
+  <type type='pmd' number='1' suppressed='0'/>
+</file>

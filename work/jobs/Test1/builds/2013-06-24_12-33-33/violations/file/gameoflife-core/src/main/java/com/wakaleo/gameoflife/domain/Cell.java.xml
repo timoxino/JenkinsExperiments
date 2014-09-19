@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Cell.java"
+  last-modified="1372061650000"
+  file="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Cell.java"
+>
+  <violation
+    line="3"
+    source="JavadocTypeCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="4"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="4"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="6"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="8"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="17"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="28"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <line number='1'>package com.wakaleo.gameoflife.domain;</line>
+  <line number='2'></line>
+  <line number='3'>public enum Cell {</line>
+  <line number='4'>    LIVE_CELL("*"), DEAD_CELL(".");</line>
+  <line number='5'></line>
+  <line number='6'>    private String symbol;</line>
+  <line number='7'></line>
+  <line number='8'>    private Cell(final String initialSymbol) {</line>
+  <line number='9'>        this.symbol = initialSymbol;</line>
+  <line number='10'>    }</line>
+  <line number='11'></line>
+  <line number='12'>    @Override</line>
+  <line number='13'>    public String toString() {</line>
+  <line number='14'>        return symbol;</line>
+  <line number='15'>    }</line>
+  <line number='16'></line>
+  <line number='17'>    static Cell fromSymbol(final String symbol) {</line>
+  <line number='18'>        Cell cellRepresentedBySymbol = null;</line>
+  <line number='19'>        for (Cell cell : Cell.values()) {</line>
+  <line number='20'>            if (cell.symbol.equals(symbol)) {</line>
+  <line number='21'>                cellRepresentedBySymbol = cell;</line>
+  <line number='22'>                break;</line>
+  <line number='23'>            }</line>
+  <line number='24'>        }</line>
+  <line number='25'>        return cellRepresentedBySymbol;</line>
+  <line number='26'>    }</line>
+  <line number='27'></line>
+  <line number='28'>    public String getSymbol() {</line>
+  <line number='29'>        return symbol;</line>
+  <line number='30'>    }</line>
+  <line number='31'>}</line>
+  <type type='checkstyle' number='7' suppressed='0'/>
+</file>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.2" timestamp="2013-06-24T12:37:39.562">
+<file name="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-web/src/main/java/com/wakaleo/gameoflife/webtests/controllers/GameController.java">
+<violation beginline="99" endline="99" begincolumn="17" endcolumn="54" rule="UselessParentheses" ruleset="Unnecessary" package="com.wakaleo.gameoflife.webtests.controllers" class="GameController" method="cellWasClickedAt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

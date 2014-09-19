@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: twitter
+Long-Name: twitter
+Url: http://jenkins-ci.org/plugin/twitter/
+Plugin-Version: 1.0-SNAPSHOT (private-06/25/2013 13:17-timoxino)
+Hudson-Version: 1.514
+Jenkins-Version: 1.514
+Plugin-Dependencies: ui-samples-plugin:1.514
+Plugin-Developers: 
+Libraries: /home/timoxino/Development/github/Chronology/misc/twitter/t
+ arget/classes,/home/timoxino/Development/mvn_repo/org/twitter4j/twitt
+ er4j-core/3.0.3/twitter4j-core-3.0.3.jar
+Resource-Path: /home/timoxino/Development/github/Chronology/misc/twitt
+ er/src/main/webapp
+

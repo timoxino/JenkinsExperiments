@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Universe.java"
+  last-modified="1372061650000"
+  file="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Universe.java"
+>
+  <violation
+    line="8"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 88)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 88)."
+  />
+  <violation
+    line="12"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="14"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="16"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="20"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="24"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="28"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="32"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'spawnsANewGeneration' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'spawnsANewGeneration' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="32"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="36"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'createNextGeneration' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'createNextGeneration' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="36"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="42"
+    source="TodoCommentCheck"
+    severity="High"
+    type="checkstyle"
+    message="Comment matches to-do format 'TODO:'."
+    severity-level="0"
+    popup-message="Comment matches to-do format 'TODO:'."
+  />
+  <violation
+    line="46"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="49"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'3' is a magic number."
+    severity-level="0"
+    popup-message="'3' is a magic number."
+  />
+  <violation
+    line="55"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'3' is a magic number."
+    severity-level="0"
+    popup-message="'3' is a magic number."
+  />
+  <violation
+    line="69"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'getGrid' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'getGrid' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="69"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="73"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'getCells' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'getCells' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="73"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="77"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'setLiveCellAt' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'setLiveCellAt' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="77"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="81"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'getCellAt' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'getCellAt' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="81"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="85"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'setDeadCellAt' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'setDeadCellAt' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="85"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <line number='1'>package com.wakaleo.gameoflife.domain;</line>
+  <line number='2'></line>
+  <line number='3'>import static com.wakaleo.gameoflife.domain.Cell.LIVE_CELL;</line>
+  <line number='4'>import static com.wakaleo.gameoflife.domain.Cell.DEAD_CELL;</line>
+  <line number='5'></line>
+  <line number='6'>/**</line>
+  <line number='7'> * A universe is a succession of grids over time.</line>
+  <line number='8'> * Each new grid is generated from the previous one using the rules of the Game Of Life.</line>
+  <line number='9'> */</line>
+  <line number='10'>public class Universe {</line>
+  <line number='11'></line>
+  <line number='12'>    private static final String NEW_LINE = System.getProperty("line.separator");</line>
+  <line number='13'></line>
+  <line number='14'>    private Grid currentGridContent;</line>
+  <line number='15'></line>
+  <line number='16'>    public Universe() {</line>
+  <line number='17'>        currentGridContent = new Grid();</line>
+  <line number='18'>    }</line>
+  <line number='19'></line>
+  <line number='20'>    public Universe(final int rows, final int columns) {</line>
+  <line number='21'>        currentGridContent = new Grid(rows, columns);</line>
+  <line number='22'>    }</line>
+  <line number='23'></line>
+  <line number='24'>    public Universe(final String initialGridContents) {</line>
+  <line number='25'>        currentGridContent = new Grid(initialGridContents);</line>
+  <line number='26'>    }</line>
+  <line number='27'></line>
+  <line number='28'>    public static String seededWith(final String gridContents) {</line>
+  <line number='29'>        return gridContents;</line>
+  <line number='30'>    }</line>
+  <line number='31'></line>
+  <line number='32'>    public void spawnsANewGeneration() {</line>
+  <line number='33'>        createNextGeneration();</line>
+  <line number='34'>    }</line>
+  <line number='35'></line>
+  <line number='36'>    public void createNextGeneration() {</line>
+  <line number='37'></line>
+  <line number='38'>        StringBuffer nextGenerationContent = new StringBuffer();</line>
+  <line number='39'></line>
+  <line number='40'>        int maxRow = currentGridContent.getWidth();</line>
+  <line number='41'>        int maxColumn = currentGridContent.getHeight();</line>
+  <line number='42'>        // TODO: simplify this code</line>
+  <line number='43'>        for (int y = 0; y &lt; maxRow; y++) {</line>
+  <line number='44'>            for (int x = 0; x &lt; maxColumn; x++) {</line>
+  <line number='45'>                Cell currentCell = currentGridContent.getCellAt(x, y);</line>
+  <line number='46'>                int neighbourCount = currentGridContent.getLiveNeighboursAt(x, y);</line>
+  <line number='47'>                Cell nextCell = null;</line>
+  <line number='48'>                if (currentCell == Cell.LIVE_CELL) {</line>
+  <line number='49'>                    if ((neighbourCount == 2) || (neighbourCount == 3)) {</line>
+  <line number='50'>                        nextCell = LIVE_CELL;</line>
+  <line number='51'>                    } else {</line>
+  <line number='52'>                        nextCell = DEAD_CELL;</line>
+  <line number='53'>                    }</line>
+  <line number='54'>                } else {</line>
+  <line number='55'>                    if (neighbourCount == 3) {</line>
+  <line number='56'>                        nextCell = LIVE_CELL;</line>
+  <line number='57'>                    } else {</line>
+  <line number='58'>                        nextCell = DEAD_CELL;</line>
+  <line number='59'>                    }</line>
+  <line number='60'>                }</line>
+  <line number='61'>                nextGenerationContent.append(nextCell);</line>
+  <line number='62'>            }</line>
+  <line number='63'>            nextGenerationContent.append(NEW_LINE);</line>
+  <line number='64'>        }</line>
+  <line number='65'>        nextGenerationContent.append(NEW_LINE);</line>
+  <line number='66'>        currentGridContent = new Grid(nextGenerationContent.toString());</line>
+  <line number='67'>    }</line>
+  <line number='68'></line>
+  <line number='69'>    public String getGrid() {</line>
+  <line number='70'>        return currentGridContent.toString();</line>
+  <line number='71'>    }</line>
+  <line number='72'></line>
+  <line number='73'>    public Cell[][] getCells() {</line>
+  <line number='74'>        return currentGridContent.getContents();</line>
+  <line number='75'>    }</line>
+  <line number='76'></line>
+  <line number='77'>    public void setLiveCellAt(final int row, final int column) {</line>
+  <line number='78'>        this.currentGridContent.setCellAt(column, row, LIVE_CELL);</line>
+  <line number='79'>    }</line>
+  <line number='80'></line>
+  <line number='81'>    public Cell getCellAt(final int row, final int column) {</line>
+  <line number='82'>        return currentGridContent.getCellAt(column, row);</line>
+  <line number='83'>    }</line>
+  <line number='84'></line>
+  <line number='85'>    public void setDeadCellAt(final int row, final int column) {</line>
+  <line number='86'>        this.currentGridContent.setCellAt(column, row, DEAD_CELL);</line>
+  <line number='87'>    }</line>
+  <line number='88'>}</line>
+  <type type='checkstyle' number='25' suppressed='0'/>
+</file>

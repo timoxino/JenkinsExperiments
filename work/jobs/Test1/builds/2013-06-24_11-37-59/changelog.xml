@@ -1,0 +1,10 @@
+Changes in branch origin/master, between 38710a329fc5b77caa6d6add36818540af9fd716 and 80a676087f3ea64a706ec2f09a5662da63448808
+commit 80a676087f3ea64a706ec2f09a5662da63448808
+tree 8dcb35427f3332a4bd6a1f7dee6281355a9ddf12
+parent 38710a329fc5b77caa6d6add36818540af9fd716
+author Uladzimir Mihura <trnl.me@gmail.com> 1372063059 +0300
+committer Uladzimir Mihura <trnl.me@gmail.com> 1372063059 +0300
+
+    Failing test
+
+:100644 100644 adec8a5b9c0f38d152976c5eec5f03dfa98864fb 5dcfb680fa0e5f624f179e0eb5de7433880f3619 M	gameoflife-web/src/test/java/com/wakaleo/gameoflife/webtests/controllers/WhenDisplayingTheHomePage.java

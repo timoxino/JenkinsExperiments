@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/GridReader.java"
+  last-modified="1372061650000"
+  file="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/GridReader.java"
+>
+  <violation
+    line="0"
+    source="JavadocPackageCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing package-info.java file."
+    severity-level="0"
+    popup-message="Missing package-info.java file."
+  />
+  <violation
+    line="6"
+    source="JavadocTypeCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="8"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="10"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'loadFrom' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'loadFrom' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="10"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="20"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="21"
+    source="TodoCommentCheck"
+    severity="High"
+    type="checkstyle"
+    message="Comment matches to-do format 'TODO:'."
+    severity-level="0"
+    popup-message="Comment matches to-do format 'TODO:'."
+  />
+  <violation
+    line="34"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <line number='1'>package com.wakaleo.gameoflife.domain;</line>
+  <line number='2'></line>
+  <line number='3'>import java.util.ArrayList;</line>
+  <line number='4'>import java.util.List;</line>
+  <line number='5'></line>
+  <line number='6'>public class GridReader {</line>
+  <line number='7'></line>
+  <line number='8'>    private static final String NEW_LINE = System.getProperty("line.separator");</line>
+  <line number='9'></line>
+  <line number='10'>    public Cell[][] loadFrom(final String gridContents) {</line>
+  <line number='11'>        List&lt;Cell[]&gt; rows = new ArrayList&lt;Cell[]&gt;();</line>
+  <line number='12'>        String[] rowValues = splitIntoRows(gridContents);</line>
+  <line number='13'>        for (String row : rowValues) {</line>
+  <line number='14'>            Cell[] cellsInRow = splitIntoCells(row);</line>
+  <line number='15'>            rows.add(cellsInRow);</line>
+  <line number='16'>        }</line>
+  <line number='17'>        return (Cell[][]) rows.toArray(new Cell[0][0]);</line>
+  <line number='18'>    }</line>
+  <line number='19'></line>
+  <line number='20'>    private Cell[] splitIntoCells(final String row) {</line>
+  <line number='21'>        // TODO: ugly code</line>
+  <line number='22'>        char[] cellSymbols = row.trim().toCharArray();</line>
+  <line number='23'>        List&lt;Cell&gt; cellsInRow = new ArrayList&lt;Cell&gt;();</line>
+  <line number='24'>        for (char cellSymbol : cellSymbols) {</line>
+  <line number='25'>            Cell cell = Cell.fromSymbol(Character.toString(cellSymbol));</line>
+  <line number='26'>            if (cell == null) {</line>
+  <line number='27'>                throw new IllegalArgumentException();</line>
+  <line number='28'>            }</line>
+  <line number='29'>            cellsInRow.add(cell);</line>
+  <line number='30'>        }</line>
+  <line number='31'>        return cellsInRow.toArray(new Cell[0]);</line>
+  <line number='32'>    }</line>
+  <line number='33'></line>
+  <line number='34'>    private String[] splitIntoRows(final String gridContents) {</line>
+  <line number='35'>        return gridContents.split(NEW_LINE);</line>
+  <line number='36'>    }</line>
+  <line number='37'></line>
+  <line number='38'>}</line>
+  <type type='checkstyle' number='8' suppressed='0'/>
+</file>

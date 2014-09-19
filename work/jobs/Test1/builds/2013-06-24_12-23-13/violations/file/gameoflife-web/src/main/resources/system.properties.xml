@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="gameoflife-web/src/main/resources/system.properties"
+  last-modified="1372061650000"
+  file="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-web/src/main/resources/system.properties"
+>
+  <violation
+    line="0"
+    source="NewlineAtEndOfFileCheck"
+    severity="High"
+    type="checkstyle"
+    message="File does not end with a newline."
+    severity-level="0"
+    popup-message="File does not end with a newline."
+  />
+  <line number='1'>app.version=${project.version} (build job ${env.JOB_NAME} - #${env.BUILD_NUMBER})</line>
+  <type type='checkstyle' number='1' suppressed='0'/>
+</file>

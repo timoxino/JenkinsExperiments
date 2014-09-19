@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="gameoflife-web/src/main/java/com/wakaleo/gameoflife/webtests/controllers/HomePageController.java"
+  last-modified="1372061650000"
+  file="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-web/src/main/java/com/wakaleo/gameoflife/webtests/controllers/HomePageController.java"
+>
+  <violation
+    line="15"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'index' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'index' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="15"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="20"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'home' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'home' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="20"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <line number='6'></line>
+  <line number='7'>/**</line>
+  <line number='8'> * This class rocks.</line>
+  <line number='9'> *</line>
+  <line number='10'> * @author johnsmart</line>
+  <line number='11'> */</line>
+  <line number='12'>@Controller</line>
+  <line number='13'>public class HomePageController {</line>
+  <line number='14'>    // FIXME: do something nicer for the home page</line>
+  <line number='15'>    @RequestMapping("/")</line>
+  <line number='16'>    public ModelAndView index() {</line>
+  <line number='17'>        return new ModelAndView("home");</line>
+  <line number='18'>    }</line>
+  <line number='19'></line>
+  <line number='20'>    @RequestMapping("/home")</line>
+  <line number='21'>    public ModelAndView home() {</line>
+  <line number='22'>        return new ModelAndView("home");</line>
+  <line number='23'>    }</line>
+  <line number='24'>}</line>
+  <type type='checkstyle' number='4' suppressed='0'/>
+</file>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.twitter.TwitterJobProperty_-Descriptor plugin="twitter@1.0-SNAPSHOT">
+  <consumerSecret>0CRmkOf8O8vsxzd2pc1Un6ljbO4V3IMONyoXLddcM</consumerSecret>
+  <consumerKey>72wyj3bDSfmkMUbGXMa5g</consumerKey>
+  <accessToken>792147523-MhIOMRxijq8tBISAwEqMnCW3NWLryK9dYEZZ6lcb</accessToken>
+  <accessTokenSecret>3PkiJKWMBLif0qo5hLAFuttdHbhrYHpx3xO5Z83OHKw</accessTokenSecret>
+</org.jenkinsci.plugins.twitter.TwitterJobProperty_-Descriptor>

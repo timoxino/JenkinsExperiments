@@ -1,0 +1,80 @@
+<violations>
+  <type name='checkstyle'>
+    <file
+      name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Grid.java"
+      count = '30'>
+      <severity level="0" count="30"/>
+      <source  name="JavadocMethodCheck" count="16"/>
+      <source  name="DesignForExtensionCheck" count="7"/>
+      <source  name="JavadocVariableCheck" count="5"/>
+      <source  name="LineLengthCheck" count="1"/>
+      <source  name="JavadocTypeCheck" count="1"/>
+  </file>
+    <file
+      name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Universe.java"
+      count = '25'>
+      <severity level="0" count="25"/>
+      <source  name="TodoCommentCheck" count="1"/>
+      <source  name="JavadocMethodCheck" count="11"/>
+      <source  name="DesignForExtensionCheck" count="7"/>
+      <source  name="JavadocVariableCheck" count="2"/>
+      <source  name="LineLengthCheck" count="2"/>
+      <source  name="MagicNumberCheck" count="2"/>
+  </file>
+    <file
+      name="gameoflife-web/src/main/java/com/wakaleo/gameoflife/webtests/controllers/GameController.java"
+      count = '24'>
+      <severity level="0" count="24"/>
+      <source  name="JavadocMethodCheck" count="9"/>
+      <source  name="DesignForExtensionCheck" count="3"/>
+      <source  name="JavadocVariableCheck" count="1"/>
+      <source  name="LineLengthCheck" count="5"/>
+      <source  name="MagicNumberCheck" count="4"/>
+      <source  name="JavadocTypeCheck" count="1"/>
+      <source  name="JavadocPackageCheck" count="1"/>
+  </file>
+    <file
+      name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/GridReader.java"
+      count = '8'>
+      <severity level="0" count="8"/>
+      <source  name="TodoCommentCheck" count="1"/>
+      <source  name="JavadocMethodCheck" count="3"/>
+      <source  name="DesignForExtensionCheck" count="1"/>
+      <source  name="JavadocVariableCheck" count="1"/>
+      <source  name="JavadocTypeCheck" count="1"/>
+      <source  name="JavadocPackageCheck" count="1"/>
+  </file>
+    <file
+      name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Cell.java"
+      count = '7'>
+      <severity level="0" count="7"/>
+      <source  name="JavadocMethodCheck" count="3"/>
+      <source  name="JavadocVariableCheck" count="3"/>
+      <source  name="JavadocTypeCheck" count="1"/>
+  </file>
+    <file
+      name="gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/GridWriter.java"
+      count = '6'>
+      <severity level="0" count="6"/>
+      <source  name="TodoCommentCheck" count="1"/>
+      <source  name="JavadocMethodCheck" count="1"/>
+      <source  name="DesignForExtensionCheck" count="1"/>
+      <source  name="JavadocVariableCheck" count="1"/>
+      <source  name="LineLengthCheck" count="1"/>
+      <source  name="JavadocTypeCheck" count="1"/>
+  </file>
+    <file
+      name="gameoflife-web/src/main/java/com/wakaleo/gameoflife/webtests/controllers/HomePageController.java"
+      count = '4'>
+      <severity level="0" count="4"/>
+      <source  name="JavadocMethodCheck" count="2"/>
+      <source  name="DesignForExtensionCheck" count="2"/>
+  </file>
+    <file
+      name="gameoflife-web/src/main/resources/system.properties"
+      count = '1'>
+      <severity level="0" count="1"/>
+      <source  name="NewlineAtEndOfFileCheck" count="1"/>
+  </file>
+  </type>
+</violations>

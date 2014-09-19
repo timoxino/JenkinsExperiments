@@ -1,0 +1,2 @@
+#Sat Jun 15 14:48:49 JST 2013
+constructor=coberturaReportFile,onlyStable,failUnhealthy,failUnstable,autoUpdateHealth,autoUpdateStability,zoomCoverageChart,failNoReports,sourceEncoding,maxNumberOfBuilds

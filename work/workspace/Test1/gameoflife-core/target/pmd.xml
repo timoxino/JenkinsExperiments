@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.2" timestamp="2013-06-24T12:36:56.567">
+<file name="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Grid.java">
+<violation beginline="73" endline="73" begincolumn="17" endcolumn="40" rule="UselessParentheses" ruleset="Unnecessary" package="com.wakaleo.gameoflife.domain" class="Grid" method="cellIsOutsideBorders" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="73" endline="73" begincolumn="47" endcolumn="73" rule="UselessParentheses" ruleset="Unnecessary" package="com.wakaleo.gameoflife.domain" class="Grid" method="cellIsOutsideBorders" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="86" endline="86" begincolumn="17" endcolumn="28" rule="UselessParentheses" ruleset="Unnecessary" package="com.wakaleo.gameoflife.domain" class="Grid" method="cellIsCentralCell" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="86" endline="86" begincolumn="35" endcolumn="46" rule="UselessParentheses" ruleset="Unnecessary" package="com.wakaleo.gameoflife.domain" class="Grid" method="cellIsCentralCell" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/timoxino/Development/github/Chronology/misc/twitter/work/workspace/Test1/gameoflife-core/src/main/java/com/wakaleo/gameoflife/domain/Universe.java">
+<violation beginline="49" endline="49" begincolumn="26" endcolumn="44" rule="UselessParentheses" ruleset="Unnecessary" package="com.wakaleo.gameoflife.domain" class="Universe" method="createNextGeneration" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="49" endline="49" begincolumn="51" endcolumn="69" rule="UselessParentheses" ruleset="Unnecessary" package="com.wakaleo.gameoflife.domain" class="Universe" method="createNextGeneration" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
